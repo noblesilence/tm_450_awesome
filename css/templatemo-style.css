@@ -16,8 +16,9 @@ body {
   overflow-x: hidden; /* prevent horizontal scrollbar from appearing */
 }
 
+.container,
 .container-fluid {
-  max-width: 1140px;
+  max-width: 1170px;
 }
 
 a {
@@ -281,11 +282,11 @@ a:focus {
   margin-bottom: 20px;
   margin-right: 20px;
 }
-#about .media-heading-wrapper h3 {
+.media-heading {
   font-size: 18px;
   font-weight: bold;
   padding-top: 20px;
-  padding-left: 52px;
+  padding-bottom: 20px;
 }
 /* end about */
 
