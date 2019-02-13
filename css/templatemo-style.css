@@ -52,6 +52,17 @@ h2 span {
 }
 /* end h2 */
 
+.h4,
+h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-size: 14px;
+}
+
 /* start about team service portfolio contact */
 #about,
 #team,
@@ -359,7 +370,7 @@ a:focus {
 #portfolio {
   padding-bottom: 80px;
 }
-#portfolio .col-md-3 {
+.tm-portfolio-item {
   padding: 0px;
 }
 .portfolio-thumb,
