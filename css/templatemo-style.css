@@ -499,6 +499,9 @@ a:focus {
 @media only screen and (max-width: 980px) {
   #team .team-wrapper {
     margin-top: 40px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
   }
   #portfolio .portfolio-thumb .portfolio-overlay {
     background: #28a7e9;
