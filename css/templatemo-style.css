@@ -600,3 +600,9 @@ a:focus {
   }
 }
 /* end 360 media quires */
+
+@media (min-width: 576px) {
+  .container {
+    max-width: none;
+  }
+}
