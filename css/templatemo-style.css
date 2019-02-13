@@ -16,12 +16,20 @@ body {
   overflow-x: hidden; /* prevent horizontal scrollbar from appearing */
 }
 
+.container-fluid {
+  max-width: 1140px;
+}
+
 a {
   color: #47c6f8;
 }
 
 a:hover {
   color: #0ff;
+}
+
+button:focus {
+  outline: none;
 }
 
 /* start h2 */
@@ -175,7 +183,7 @@ header .social-icon li a {
   font-size: 30px;
   height: 70px;
   line-height: 40px;
-  padding: 12px 0px 0px 12px;
+  padding: 12px 0 0 0;
 }
 .navbar-default .navbar-nav li a {
   font-weight: bold;
@@ -192,6 +200,10 @@ header .social-icon li a {
 }
 .navbar-default .navbar-nav > li > a.current {
   color: #28a7e9;
+}
+
+.navbar-nav {
+  margin: 7.5px -15px;
 }
 
 a:hover,
@@ -231,6 +243,7 @@ a:focus {
 }
 #home .btn {
   background: transparent;
+  border-color: #ccc;
   border-radius: 2px;
   color: #fff;
   font-size: 16px;
@@ -524,17 +537,21 @@ a:focus {
   header .social-icon {
     text-align: left;
   }
-  .navbar-toggle {
-    margin-top: 15px;
+  .navbar-toggler {
+    border-color: #ddd;
+    padding: 9px 15px;
+    color: #888;
   }
   .navbar-toggle-icon {
     font-size: 1.5em;
   }
   .navbar-collapse {
+    border-top: 1px solid #e7e7e7;
     max-height: 300px;
     overflow-y: auto;
   }
   .navbar-default .navbar-nav li a {
+    display: block;
     height: 45px;
     padding-top: 5px;
     padding-bottom: 5px;
