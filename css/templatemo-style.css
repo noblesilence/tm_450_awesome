@@ -425,6 +425,7 @@ a:focus {
   border-radius: 2px;
   box-shadow: none;
   color: #fff;
+  font-size: 14px;
   margin-top: 6px;
   margin-bottom: 16px;
 }
@@ -446,6 +447,7 @@ a:focus {
 #contact address {
   border-bottom: 1px solid #505050;
   padding-top: 30px;
+  margin-bottom: 20px;
 }
 #contact address .address-title {
   font-weight: bold;
@@ -601,7 +603,7 @@ a:focus {
 }
 /* end 360 media quires */
 
-@media (min-width: 576px) {
+@media (max-width: 767px) {
   .container {
     max-width: none;
   }
