@@ -285,9 +285,6 @@ a:focus {
 /* end home */
 
 /* start about */
-#about .media-heading-wrapper {
-  padding-bottom: 32px;
-}
 #about .media-heading-wrapper .fa {
   border: 1px solid #fff;
   border-radius: 2px;
@@ -603,8 +600,28 @@ a:focus {
 }
 /* end 360 media quires */
 
+/* TODO: combine this block with above */
 @media (max-width: 767px) {
   .container {
     max-width: none;
+  }
+
+  .tm-media {
+    margin-bottom: 30px;
+  }
+}
+
+.tm-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.tm-media-body {
+  padding-left: 80px;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .tm-media-body {
+    padding-left: 0;
   }
 }
