@@ -1,0 +1,19 @@
+{
+  "name": "tm_450_awesome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noblesilence/tm_450_awesome.git"
+  },
+  "author": "Templatemo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noblesilence/tm_450_awesome/issues"
+  },
+  "homepage": "https://github.com/noblesilence/tm_450_awesome#readme"
+}
