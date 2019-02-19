@@ -1,1 +1,3 @@
 .netlify
+/others
+.DS_Store
