@@ -24,7 +24,7 @@ $(function() {
   $(".templatemo-nav").singlePageNav({
     offset: navOffset,
     easing: "easeInOutExpo",
-    speed: 1000,
+    speed: 900,
     filter: ":not(.external)",
     updateHash: true
   });
